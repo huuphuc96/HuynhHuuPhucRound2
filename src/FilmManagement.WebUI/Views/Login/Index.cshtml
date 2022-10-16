@@ -1,0 +1,113 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .alert {
+        padding: 20px;
+        background-color: #f44336;
+        color: white;
+    }
+
+    .closebtn {
+        margin-left: 15px;
+        color: white;
+        font-weight: bold;
+        float: right;
+        font-size: 16px;
+        line-height: 16px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+        .closebtn:hover {
+            color: black;
+        }
+</style>
+
+<div class="wrapper bg-white">
+    <div class="h4 text-muted text-center pt-2">Welcome to </div>
+    <div class="h2 text-center">Big Star</div>
+    <form class="pt-3">
+        <div class="form-group py-2">
+            <div class="input-field"> <span class="far fa-user p-2"></span> <input id="Username" type="text" placeholder="Username or Email" required class=""> </div>
+        </div>
+        <div class="form-group py-1 pb-2">
+            <div class="input-field"> <span class="fas fa-lock p-2"></span> <input id="Password" type="password" placeholder="Password" required onkeypress="return checkKeyPress(event);" class=""> <button type="button" class="btn bg-white text-muted"> <span class="far fa-eye-slash toggle-password"></span> </button> </div>
+        </div>
+        <div class="d-flex align-items-start">
+            <div class="remember"> <label class="option text-muted"> Remember me <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div>
+            @*<div class="ml-auto"> <a href="#" id="forgot">Forgot Password?</a> </div>*@
+        </div> <button class="btn btn-block text-center my-3" id="btnSubmit" type="button">Submit</button>
+        <div class="text-center pt-3 text-muted">Not a member? <a href="#" id="btnRegis">Register</a></div>
+    </form>
+    <div class="alert" style="display: none">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        <div id="msg"></div>
+    </div>
+</div>
+<script type="text/javascript">
+    $("body").on('click', '.toggle-password', function () {
+        $(this).toggleClass("fa-eye fa-eye-slash");
+        var input = $("#Password");
+        if (input.attr("type") === "password") {
+            input.attr("type", "text");
+        } else {
+            input.attr("type", "password");
+        }
+    });
+
+    function checkKeyPress(e) {
+        // look for window.event in case event isn't passed in
+        e = e || window.event;
+        if (e.keyCode == 13) {
+            document.getElementById('btnSubmit').click();
+            return false;
+        }
+        return true;
+    }
+
+    $(function () {
+        $("#btnRegis").click(function () {
+            $.ajax({
+                type: "GET",
+                url: "/Login/Register",
+                success: function (response) {
+                    window.location.href = '@Url.Action("Register", "Login")';
+                },
+                failure: function (response) {
+                    alert(response.responseText);
+                },
+                error: function (response) {
+                    alert(response.responseText);
+                }
+            });
+        });
+
+        $("#btnSubmit").click(function () {
+            var data = { // to be replaced with form values
+                Password: $("#Password").val(),
+                Username: $("#Username").val(),
+            };
+                $.ajax({
+                    type: "POST",
+                    url: "@Url.Action("Index", "Login")",
+                    data: JSON.stringify(data),
+                    contentType: 'application/json; charset=utf-8',
+                    dataType: 'json',
+                    success: function (response) {
+                        if (response.redirectToUrl) {
+                            return window.location.href = response.redirectToUrl;
+                        }
+                        $(".alert").css("display", "block");
+                        document.getElementById("msg").innerHTML = response;
+                    },
+                    failure: function (response) {
+                        window.location.href = response.redirectToUrl;
+                    },
+                    error: function (response) {
+                        window.location.href = response.redirectToUrl;
+                    }
+                });
+            });
+    });
+</script>

@@ -1,0 +1,131 @@
+﻿@{ 
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .alert {
+        padding: 20px;
+        background-color: #f44336;
+        color: white;
+    }
+
+    .closebtn {
+        margin-left: 15px;
+        color: white;
+        font-weight: bold;
+        float: right;
+        font-size: 16px;
+        line-height: 16px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+        .closebtn:hover {
+            color: black;
+        }
+</style>
+<script type="text/javascript">
+        $(function () {
+            $("#btnRedirectLogin").click(function () {
+                $.ajax({
+                    type: "GET",
+                    url: "/Login/Index",
+                    success: function (response) {
+                        window.location.href = '/Login/Index';
+                    }
+                });
+            });
+        });
+</script>
+<div class="wrapper bg-white">
+    <div class="h4 text-muted text-center pt-2">Welcome to </div>
+    <div class="h2 text-center">Big Star</div>
+    <form class="pt-3">
+        <div class="form-group py-2">
+            <div class="input-field"> <span class="far fa-user p-2"></span> <input id="Username" type="text" placeholder="Username" required class=""> </div>
+        </div>
+        <div class="form-group py-2">
+            <div class="input-field"> <span class="far fa-user p-2"></span> <input id="Email" type="text" placeholder="Email" required class=""> </div>
+        </div>
+        <div class="form-group py-1 pb-2">
+            <div class="input-field"> <span class="fas fa-lock p-2"></span> <input id="Password" type="text" placeholder="Password" required class=""> <button type="button" class="btn bg-white text-muted"> <span class="far fa-eye-slash toggle-password"></span> </button> </div>
+        </div>
+        <div class="form-group py-1 pb-2">
+            <div class="input-field"> <span class="fas fa-lock p-2"></span> <input id="RePassword" type="text" placeholder="Re-Password" required class=""> <button type="button" class="btn bg-white text-muted"> <span class="far fa-eye-slash toggle-repassword"></span> </button> </div>
+        </div>
+        <button type="button" id="registerUser" class="btn btn-block text-center my-3">Submit</button>
+        <div class="text-center pt-3 text-muted">Have an account? <a href="#" id="btnRedirectLogin">Log in</a></div>
+    </form>
+    <div class="alert" style="display: none">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        <div id="msg"></div>
+    </div>
+</div>
+<script type="text/javascript">
+    $("body").on('click', '.toggle-password', function () {
+        $(this).toggleClass("fa-eye fa-eye-slash");
+        var input = $("#Password");
+        if (input.attr("type") === "password") {
+            input.attr("type", "text");
+        } else {
+            input.attr("type", "password");
+        }
+    });
+
+    $("body").on('click', '.toggle-repassword', function () {
+        $(this).toggleClass("fa-eye fa-eye-slash");
+        var input = $("#RePassword");
+        if (input.attr("type") === "password") {
+            input.attr("type", "text");
+        } else {
+            input.attr("type", "password");
+        }
+    });
+
+    $("#registerUser").click(function () {
+        var email = $("#Email").val();
+        var userName = $("#Username").val();
+        var passWord = $("#Password").val();
+        var rePassWord = $("#RePassword").val();
+        if (passWord != rePassWord) {
+            $(".alert").css("display", "block");
+            return document.getElementById("msg").innerHTML = "RePassword not match";
+        }
+        var data = { // to be replaced with form values
+            Password: passWord,
+            Username: userName,
+            Email: email,
+        };
+        $.ajax({
+            type: "POST",
+            url: "@Url.Action("Register", "Login")",
+            data: JSON.stringify(data),
+            contentType: 'application/json; charset=utf-8',
+            dataType: 'json',
+            success: function (response) {
+                if (response == true) {
+                }
+                $(".alert").css("display", "block");
+                document.getElementById("msg").innerHTML = response;
+            }
+        });
+    });
+
+    function registerUser(id) {
+        var data = { // to be replaced with form values
+            MovieId: id,
+            IsLike: true
+        };
+        $.ajax({
+                type: "POST",
+                url: "@Url.Action("InteractMovie", "Movie")",
+                data: JSON.stringify(data),
+                contentType: 'application/json; charset=utf-8',
+                dataType: 'json',
+                success: function (response) {
+                    if (response.code == 0) {
+                    }
+                    location.reload();
+                }
+            });
+        }
+</script>

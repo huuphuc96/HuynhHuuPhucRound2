@@ -1,0 +1,4 @@
+D:\HuynhHuuPhuc-Round2-Test\src\FilmManagement.Infrastructure\obj\Debug\netcoreapp3.1\FilmManagement.Infrastructure.csprojAssemblyReference.cache
+D:\HuynhHuuPhuc-Round2-Test\src\FilmManagement.Infrastructure\obj\Debug\netcoreapp3.1\FilmManagement.Infrastructure.AssemblyInfoInputs.cache
+D:\HuynhHuuPhuc-Round2-Test\src\FilmManagement.Infrastructure\obj\Debug\netcoreapp3.1\FilmManagement.Infrastructure.AssemblyInfo.cs
+D:\HuynhHuuPhuc-Round2-Test\src\FilmManagement.Infrastructure\obj\Debug\netcoreapp3.1\FilmManagement.Infrastructure.csproj.CoreCompileInputs.cache
