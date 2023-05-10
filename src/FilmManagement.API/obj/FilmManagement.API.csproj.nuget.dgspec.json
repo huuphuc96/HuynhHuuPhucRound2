@@ -1,38 +1,43 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HuynhHuuPhuc-Round2-Test\\src\\FilmManagement.API\\FilmManagement.API.csproj": {}
+    "C:\\Users\\PC-PHUCHUYNH\\Downloads\\n\\HuynhHuuPhucRound2\\src\\FilmManagement.API\\FilmManagement.API.csproj": {}
   },
   "projects": {
-    "D:\\HuynhHuuPhuc-Round2-Test\\src\\FilmManagement.API\\FilmManagement.API.csproj": {
+    "C:\\Users\\PC-PHUCHUYNH\\Downloads\\n\\HuynhHuuPhucRound2\\src\\FilmManagement.API\\FilmManagement.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HuynhHuuPhuc-Round2-Test\\src\\FilmManagement.API\\FilmManagement.API.csproj",
+        "projectUniqueName": "C:\\Users\\PC-PHUCHUYNH\\Downloads\\n\\HuynhHuuPhucRound2\\src\\FilmManagement.API\\FilmManagement.API.csproj",
         "projectName": "FilmManagement.API",
-        "projectPath": "D:\\HuynhHuuPhuc-Round2-Test\\src\\FilmManagement.API\\FilmManagement.API.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\HuynhHuuPhuc-Round2-Test\\src\\FilmManagement.API\\obj\\",
+        "projectPath": "C:\\Users\\PC-PHUCHUYNH\\Downloads\\n\\HuynhHuuPhucRound2\\src\\FilmManagement.API\\FilmManagement.API.csproj",
+        "packagesPath": "C:\\Users\\PC-PHUCHUYNH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC-PHUCHUYNH\\Downloads\\n\\HuynhHuuPhucRound2\\src\\FilmManagement.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC-PHUCHUYNH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\HuynhHuuPhuc-Round2-Test\\src\\FilmManagement.Core\\FilmManagement.Core.csproj": {
-                "projectPath": "D:\\HuynhHuuPhuc-Round2-Test\\src\\FilmManagement.Core\\FilmManagement.Core.csproj"
+              "C:\\Users\\PC-PHUCHUYNH\\Downloads\\n\\HuynhHuuPhucRound2\\src\\FilmManagement.Core\\FilmManagement.Core.csproj": {
+                "projectPath": "C:\\Users\\PC-PHUCHUYNH\\Downloads\\n\\HuynhHuuPhucRound2\\src\\FilmManagement.Core\\FilmManagement.Core.csproj"
               },
-              "D:\\HuynhHuuPhuc-Round2-Test\\src\\FilmManagement.Infrastructure\\FilmManagement.Infrastructure.csproj": {
-                "projectPath": "D:\\HuynhHuuPhuc-Round2-Test\\src\\FilmManagement.Infrastructure\\FilmManagement.Infrastructure.csproj"
+              "C:\\Users\\PC-PHUCHUYNH\\Downloads\\n\\HuynhHuuPhucRound2\\src\\FilmManagement.Infrastructure\\FilmManagement.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\PC-PHUCHUYNH\\Downloads\\n\\HuynhHuuPhucRound2\\src\\FilmManagement.Infrastructure\\FilmManagement.Infrastructure.csproj"
               }
             }
           }
@@ -44,8 +49,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -64,7 +69,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -76,21 +82,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\HuynhHuuPhuc-Round2-Test\\src\\FilmManagement.Core\\FilmManagement.Core.csproj": {
+    "C:\\Users\\PC-PHUCHUYNH\\Downloads\\n\\HuynhHuuPhucRound2\\src\\FilmManagement.Core\\FilmManagement.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HuynhHuuPhuc-Round2-Test\\src\\FilmManagement.Core\\FilmManagement.Core.csproj",
+        "projectUniqueName": "C:\\Users\\PC-PHUCHUYNH\\Downloads\\n\\HuynhHuuPhucRound2\\src\\FilmManagement.Core\\FilmManagement.Core.csproj",
         "projectName": "FilmManagement.Core",
-        "projectPath": "D:\\HuynhHuuPhuc-Round2-Test\\src\\FilmManagement.Core\\FilmManagement.Core.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\HuynhHuuPhuc-Round2-Test\\src\\FilmManagement.Core\\obj\\",
+        "projectPath": "C:\\Users\\PC-PHUCHUYNH\\Downloads\\n\\HuynhHuuPhucRound2\\src\\FilmManagement.Core\\FilmManagement.Core.csproj",
+        "packagesPath": "C:\\Users\\PC-PHUCHUYNH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC-PHUCHUYNH\\Downloads\\n\\HuynhHuuPhucRound2\\src\\FilmManagement.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC-PHUCHUYNH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -98,6 +108,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -151,30 +162,49 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\HuynhHuuPhuc-Round2-Test\\src\\FilmManagement.Infrastructure\\FilmManagement.Infrastructure.csproj": {
+    "C:\\Users\\PC-PHUCHUYNH\\Downloads\\n\\HuynhHuuPhucRound2\\src\\FilmManagement.Infrastructure\\FilmManagement.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HuynhHuuPhuc-Round2-Test\\src\\FilmManagement.Infrastructure\\FilmManagement.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\PC-PHUCHUYNH\\Downloads\\n\\HuynhHuuPhucRound2\\src\\FilmManagement.Infrastructure\\FilmManagement.Infrastructure.csproj",
         "projectName": "FilmManagement.Infrastructure",
-        "projectPath": "D:\\HuynhHuuPhuc-Round2-Test\\src\\FilmManagement.Infrastructure\\FilmManagement.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\HuynhHuuPhuc-Round2-Test\\src\\FilmManagement.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\PC-PHUCHUYNH\\Downloads\\n\\HuynhHuuPhucRound2\\src\\FilmManagement.Infrastructure\\FilmManagement.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\PC-PHUCHUYNH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC-PHUCHUYNH\\Downloads\\n\\HuynhHuuPhucRound2\\src\\FilmManagement.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC-PHUCHUYNH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -182,14 +212,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\HuynhHuuPhuc-Round2-Test\\src\\FilmManagement.Core\\FilmManagement.Core.csproj": {
-                "projectPath": "D:\\HuynhHuuPhuc-Round2-Test\\src\\FilmManagement.Core\\FilmManagement.Core.csproj"
+              "C:\\Users\\PC-PHUCHUYNH\\Downloads\\n\\HuynhHuuPhucRound2\\src\\FilmManagement.Core\\FilmManagement.Core.csproj": {
+                "projectPath": "C:\\Users\\PC-PHUCHUYNH\\Downloads\\n\\HuynhHuuPhucRound2\\src\\FilmManagement.Core\\FilmManagement.Core.csproj"
               }
             }
           }
@@ -251,19 +282,17 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

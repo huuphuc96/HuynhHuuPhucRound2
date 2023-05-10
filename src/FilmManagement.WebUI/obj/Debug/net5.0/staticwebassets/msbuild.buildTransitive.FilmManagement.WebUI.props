@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\FilmManagement.WebUI.props" />
+</Project>
