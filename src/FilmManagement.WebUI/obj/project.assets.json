@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    "net6.0": {
       "Ardalis.EFCore.Extensions/1.1.0": {
         "type": "package",
         "dependencies": {
@@ -1941,7 +1941,7 @@
       },
       "FilmManagement.Infrastructure/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Ardalis.EFCore.Extensions": "1.1.0",
           "FilmManagement.Core": "1.0.0",
@@ -6248,7 +6248,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
+    "net6.0": [
       "FilmManagement.Infrastructure >= 1.0.0"
     ]
   },
@@ -6274,7 +6274,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -6282,8 +6282,8 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {
             "C:\\Users\\PC-PHUCHUYNH\\Downloads\\n\\HuynhHuuPhucRound2\\src\\FilmManagement.Infrastructure\\FilmManagement.Infrastructure.csproj": {
               "projectPath": "C:\\Users\\PC-PHUCHUYNH\\Downloads\\n\\HuynhHuuPhucRound2\\src\\FilmManagement.Infrastructure\\FilmManagement.Infrastructure.csproj"
@@ -6298,8 +6298,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "imports": [
           "net461",
           "net462",

@@ -1462,7 +1462,7 @@
       },
       "FilmManagement.Infrastructure/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Ardalis.EFCore.Extensions": "1.1.0",
           "FilmManagement.Core": "1.0.0",

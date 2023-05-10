@@ -1,0 +1,10 @@
+C:\Users\PC-PHUCHUYNH\Downloads\n\HuynhHuuPhucRound2\src\FilmManagement.Core\bin\Release\netcoreapp3.1\FilmManagement.Core.deps.json
+C:\Users\PC-PHUCHUYNH\Downloads\n\HuynhHuuPhucRound2\src\FilmManagement.Core\bin\Release\netcoreapp3.1\FilmManagement.Core.dll
+C:\Users\PC-PHUCHUYNH\Downloads\n\HuynhHuuPhucRound2\src\FilmManagement.Core\bin\Release\netcoreapp3.1\FilmManagement.Core.pdb
+C:\Users\PC-PHUCHUYNH\Downloads\n\HuynhHuuPhucRound2\src\FilmManagement.Core\obj\Release\netcoreapp3.1\FilmManagement.Core.csproj.AssemblyReference.cache
+C:\Users\PC-PHUCHUYNH\Downloads\n\HuynhHuuPhucRound2\src\FilmManagement.Core\obj\Release\netcoreapp3.1\FilmManagement.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC-PHUCHUYNH\Downloads\n\HuynhHuuPhucRound2\src\FilmManagement.Core\obj\Release\netcoreapp3.1\FilmManagement.Core.AssemblyInfoInputs.cache
+C:\Users\PC-PHUCHUYNH\Downloads\n\HuynhHuuPhucRound2\src\FilmManagement.Core\obj\Release\netcoreapp3.1\FilmManagement.Core.AssemblyInfo.cs
+C:\Users\PC-PHUCHUYNH\Downloads\n\HuynhHuuPhucRound2\src\FilmManagement.Core\obj\Release\netcoreapp3.1\FilmManagement.Core.csproj.CoreCompileInputs.cache
+C:\Users\PC-PHUCHUYNH\Downloads\n\HuynhHuuPhucRound2\src\FilmManagement.Core\obj\Release\netcoreapp3.1\FilmManagement.Core.dll
+C:\Users\PC-PHUCHUYNH\Downloads\n\HuynhHuuPhucRound2\src\FilmManagement.Core\obj\Release\netcoreapp3.1\FilmManagement.Core.pdb

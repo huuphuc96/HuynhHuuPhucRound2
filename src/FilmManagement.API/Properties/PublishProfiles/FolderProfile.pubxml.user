@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\PC-PHUCHUYNH\Downloads\n\HuynhHuuPhucRound2\src\FilmManagement.API\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2023-05-10T07:00:18.1303791Z;False|2023-05-10T13:59:15.5715206+07:00;False|2023-05-10T13:58:17.4856294+07:00;False|2023-05-10T13:57:43.4080743+07:00;False|2023-05-10T13:56:52.2196818+07:00;False|2023-05-10T13:53:19.3814509+07:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="SqlConnection">
+      <Value>Data Source=tcp:tttt123.database.windows.net,1433%3bInitial Catalog=BigStar%3bPassword=Kutdiem1%3bUser ID=test%3bPersist Security Info=True%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

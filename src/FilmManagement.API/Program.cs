@@ -24,7 +24,7 @@ namespace FilmManagement.API
                     .SeedData()
                     .Run();
             }
-            catch (Exception ex)
+            catch (Exception)
             {
 
             }
